@@ -19,14 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="segmentation_color_based_region_growing_demo .cpp" />
     <ClCompile Include="segmentation_euclidean_cluster_demo.cpp" />
     <ClCompile Include="segmentation_euclidean_cluster_test1.cpp" />
-    <ClCompile Include="segmentation_Region_growing_demo.cpp" />
+    <ClCompile Include="segmentation_region_growing_demo.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="five_people.pcd" />
     <None Include="rabbit.pcd" />
+    <None Include="region_growing_tutorial.pcd" />
     <None Include="table_scene_lms400.pcd" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

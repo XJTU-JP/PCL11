@@ -24,12 +24,18 @@
     <ClCompile Include="segmentation_euclidean_cluster_test1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="segmentation_Region_growing_demo.cpp">
+    <ClCompile Include="segmentation_region_growing_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="segmentation_color_based_region_growing_demo .cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="rabbit.pcd">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="region_growing_tutorial.pcd">
       <Filter>资源文件</Filter>
     </None>
     <None Include="table_scene_lms400.pcd">

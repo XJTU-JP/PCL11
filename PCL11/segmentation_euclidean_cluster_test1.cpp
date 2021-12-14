@@ -13,7 +13,8 @@
 #include <pcl/visualization/pcl_visualizer.h>
 #include <pcl/filters/passthrough.h>
 
-int main_segmentation_euclidean_cluster_demo() {
+int main_segmentation_euclidean_cluster_test1() {
+//int main(){
 	//¶ÁÈ¡Êý¾Ý
 	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>);
 	pcl::io::loadPCDFile("five_people.pcd", *cloud);
